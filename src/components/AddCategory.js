@@ -20,6 +20,7 @@ const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit={handleOnSubmit}>
+            <p>{inputValue}</p>
             <input
                 type="text"
                 value={inputValue}
